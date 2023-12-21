@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="style.css">
+    <title>Cookies</title>
+</head>
+<body>
+    
+    <div class="wrapper">
+        <header>
+            <i class='bx bx-cookie bx-rotate-90' ></i>
+            <h2>Cookies consent</h2>
+        </header>
+            <div class="data">
+                <p>This website use cookies to help you 
+                    have a superior and more relevant browsing
+                    experience on the website. <a href="#">Read more...</a>
+                </p>
+            </div>
+            <div class="buttons">
+                <button class="button" id="acceptBtn">Accept</button>
+                <button class="button">Decline</button>
+            </div>
+    </div>
+
+<!-- <img src="data:image/png;base64,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"/> -->
+    <script src="cookies.js"></script>
+</body>
+</html>
